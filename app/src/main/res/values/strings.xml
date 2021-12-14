@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">KoTodo</string>
+    <string name="main_fragment">Todo List</string>
+    <string name="settings_fragment">Settings</string>
+    <string name="item_edit_fragment">Task Edit</string>
+    <string name="edit_start_date_label">\uF271</string>
+    <string name="edit_finish_date_label">\uF274</string>
+    <string name="edit_priority_label">\uf005</string>
+    <string name="priority_dialog_confirm">\uf00c</string>
+    <string name="priority_dialog_cancel">\uf00d</string>
+    <string name="plus_symbol"></string>
+    <string name="custom_tag_add_value_label">value:</string>
+    <string name="custom_tag_add_key_label">key:</string>
+    <string name="settings_file_location_title">File Location</string>
+    <string name="settings_page">Settings</string>
+    <string name="start_new_tasks_today_title">Start new tasks today</string>
+    <string name="start_new_tasks_today_description">Assign new tasks today as a starting date when created.</string>
+    <string name="end_tasks_today_title">End finished tasks today</string>
+    <string name="end_tasks_today_description">Assign tasks today as a completion date when marked finished.</string>
+    <string name="file_location_title">Text File Location</string>
+    <string name="file_location_details">Where your todo.txt file is locally stored</string>
+    <string name="preference_file_key">com.matrix.kotodo.PREFERENCE_FILE_KEY</string>
+    <string name="start_new_tasks_today_settings_key">start_new_tasks_today</string>
+    <string name="end_finished_tasks_today_settings_key">end_finished_tasks_today</string>
+    <string name="current_todo_txt_URI_settings_key">current_todo_txt_URI</string>
+    <string name="create_or_import_new_todo_txt_prompt">Create new todo.txt or import?</string>
+    <string name="create_button_prompt">create</string>
+    <string name="import_button_prompt">import</string>
+</resources>

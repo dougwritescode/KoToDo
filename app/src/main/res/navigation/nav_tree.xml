@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_tree"
+    app:startDestination="@id/mainListFragment">
+
+    <fragment
+        android:id="@+id/mainListFragment"
+        android:name="com.matrix.kotodo.mainlist.ListFragment"
+        android:label="@string/main_fragment"
+        tools:layout="@layout/list_fragment">
+        <action
+            android:id="@+id/action_mainListFragment_to_todoItemEditFragment"
+            app:destination="@id/todoItemEditFragment" />
+        <action
+            android:id="@+id/action_mainListFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/todoItemEditFragment"
+        android:name="com.matrix.kotodo.itemedit.TodoItemEditFragment"
+        android:label="@string/item_edit_fragment"
+        tools:layout="@layout/todo_item_edit_fragment">
+
+        <action
+            android:id="@+id/action_todoItemEditFragment_to_mainListFragment"
+            app:destination="@id/mainListFragment"
+            app:popUpTo="@id/mainListFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_todoItemEditFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.matrix.kotodo.settings.SettingsFragment"
+        android:label="@string/settings_fragment"
+        tools:layout="@layout/settings_fragment">
+        <action
+            android:id="@+id/action_settingsFragment_to_todoItemEditFragment"
+            app:destination="@id/todoItemEditFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_mainListFragment"
+            app:destination="@id/mainListFragment" />
+    </fragment>
+</navigation>

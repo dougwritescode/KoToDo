@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_base">#287A4E</color>
+    <color name="green_light_one">#0BAC56</color>
+    <color name="green_light_two">#5CE59C</color>
+    <color name="green_dark_one">#005A2A</color>
+    <color name="green_dark_two">#0E3922</color>
+
+    <color name="blue_base">#265C6B</color>
+    <color name="blue_light_one">#0F7A98</color>
+    <color name="blue_light_two">#5EC1DD</color>
+    <color name="blue_dark_one">#023E4F</color>
+    <color name="blue_dark_two">#0D2A32</color>
+
+    <color name="red_base">#AC5339</color>
+    <color name="red_light_one">#F44310</color>
+    <color name="red_light_two">#FF8967</color>
+    <color name="red_dark_one">#7F1D00</color>
+    <color name="red_dark_two">#512114</color>
+
+    <color name="orange_base">#AC7339</color>
+    <color name="orange_light_one">#F48310</color>
+    <color name="orange_light_two">#FFB467</color>
+    <color name="orange_dark_one">#7F4000</color>
+    <color name="orange_dark_two">#513214</color>
+
+    <color name="tag_projects">@color/red_dark_one</color>
+    <color name="tag_contexts">@color/blue_dark_one</color>
+    <color name="tag_customs">@color/orange_dark_one</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray_one">#DDDDDD</color>
+    <color name="gray_two">#888888</color>
+    <color name="gray_three">#444444</color>
+    <color name="gray_four">#222222</color>
+    <color name="black">#000000</color>
+
+    <color name="appPrimary">@color/green_base</color>
+    <color name="appLightOne">@color/green_light_one</color>
+    <color name="appLightTwo">@color/green_light_two</color>
+    <color name="appDarkOne">@color/green_dark_one</color>
+    <color name="appDarkTwo">@color/green_dark_two</color>
+</resources>
