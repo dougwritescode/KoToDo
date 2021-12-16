@@ -1,5 +1,5 @@
 ## KoToDo
-A *Work in Progress* Todo list application implementing the Todo.txt format
+A *Work in Progress* Todo list application implementing the [Todo.txt](https://github.com/todotxt/todo.txt) format
 
 ### Currently implemented
 - list creation
